@@ -11,6 +11,7 @@
 		1587562925024A8B00657CD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1587562825024A8B00657CD4 /* ContentView.swift */; };
 		1587562B25024A8C00657CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1587562A25024A8C00657CD4 /* Assets.xcassets */; };
 		1587562E25024A8C00657CD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1587562D25024A8C00657CD4 /* Preview Assets.xcassets */; };
+		1587563725024AB600657CD4 /* Complication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1587563625024AB600657CD4 /* Complication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1587562A25024A8C00657CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1587562D25024A8C00657CD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1587562F25024A8C00657CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1587563625024AB600657CD4 /* Complication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		1587562525024A8B00657CD4 /* 2020_0704_ExpandingLists */ = {
 			isa = PBXGroup;
 			children = (
+				1587563525024AAA00657CD4 /* Model */,
 				1587562625024A8B00657CD4 /* _020_0704_ExpandingListsApp.swift */,
 				1587562825024A8B00657CD4 /* ContentView.swift */,
 				1587562A25024A8C00657CD4 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				1587562D25024A8C00657CD4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1587563525024AAA00657CD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1587563625024AB600657CD4 /* Complication.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1587562925024A8B00657CD4 /* ContentView.swift in Sources */,
+				1587563725024AB600657CD4 /* Complication.swift in Sources */,
 				1587562725024A8B00657CD4 /* _020_0704_ExpandingListsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
